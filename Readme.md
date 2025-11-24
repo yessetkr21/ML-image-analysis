@@ -2,7 +2,7 @@
 
 **Plataforma inteligente de análisis de imágenes utilizando Machine Learning y redes neuronales**
 ### Link del proyecto  
-👉 [Haz clic aquí para abrir el proyecto](https://proyecto-analisis-ia.onrender.com)
+👉(https://proyecto-analisis-ia.onrender.com)
 
 
 ## Sobre el Proyecto
