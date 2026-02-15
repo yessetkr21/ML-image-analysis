@@ -1,69 +1,77 @@
-# Análisis Visual con IA
+# AI Visual Analysis
 
-**Plataforma inteligente de análisis de imágenes utilizando Machine Learning y redes neuronales**
-### Link del proyecto  
-👉(https://proyecto-analisis-ia.onrender.com)
+**Intelligent image analysis platform using Machine Learning and neural networks**
 
-
-## Sobre el Proyecto
-
-**Análisis Visual con IA** es una aplicación web full-stack que permite analizar imágenes utilizando modelos de **Machine Learning**. El sistema puede detectar objetos, clasificar imágenes y extraer texto mediante OCR, todo procesado con redes neuronales pre-entrenadas.
-
-## Tecnologías
-
-### Backend
-- **Node.js** - Entorno de ejecución JavaScript
-- **MongoDB Atlas** - Base de datos NoSQL en la nube para almacenamiento de imágenes
-- **TensorFlow.js** - Machine Learning en JavaScript
-- **COCO-SSD** - Detección de objetos (90 categorías)
-- **MobileNet** - Clasificación de imágenes (1000 categorías)
-- **Tesseract.js** - OCR (Reconocimiento óptico de caracteres)
-- **Jimp** - Procesamiento de imágenes
-- **Firebase Authentication** - Autenticación de usuarios
-
-### Herramientas de Desarrollo
-- **[dotenv](https://github.com/motdotla/dotenv)** - Variables de entorno
-- **[CORS](https://github.com/expressjs/cors)** - Políticas de origen cruzado
-- **[Nodemon](https://nodemon.io/)** - Auto-reload en desarrollo
+### Project Link  
+👉 https://proyecto-analisis-ia.onrender.com
 
 ---
 
-## Características
+## About the Project
 
-### Análisis con Machine Learning
-- **Detección de objetos** - Identifica hasta 90 tipos de objetos usando COCO-SSD
-- **Clasificación de imágenes** - Clasifica imágenes en 1000 categorías con MobileNet
-- **OCR (Reconocimiento de texto)** - Extrae texto visible en español con Tesseract.js
-- **Análisis en paralelo** - Ejecuta los 3 modelos simultáneamente para mayor velocidad
+**AI Visual Analysis** is a full-stack web application that allows users to analyze images using **Machine Learning** models. The system can detect objects, classify images, and extract text using OCR, all processed with pre-trained neural networks.
 
-### Interfaz de Usuario
-- **Drag & Drop** - Arrastra imágenes directamente
-- **Preview en tiempo real** - Visualiza la imagen antes de analizar
-- **Resultados detallados** - Descripción, objetos, etiquetas y texto detectado
-- **Diseño responsivo** - Funciona en desktop, tablet y móvil
-- **Animaciones fluidas** - Transiciones y estados de carga elegantes
+---
 
-### Seguridad & Autenticación
-- **Firebase Authentication** - Login seguro con Google y email
-- **JWT Tokens** - Autenticación mediante tokens
-- **Sesiones persistentes** - Mantiene la sesión del usuario
-- **Protección de rutas** - Solo usuarios autenticados pueden analizar
+## Technologies
 
-### Flujo de Datos
-1. Usuario sube imagen → Frontend la convierte a Base64
-2. Frontend envía petición con token JWT → Servidor valida autenticación
-3. Servidor guarda imagen en MongoDB → Retorna ID de imagen
-4. Servidor procesa con ML Service:
-   - **COCO-SSD**: Detecta objetos
-   - **MobileNet**: Clasifica imagen
-   - **Tesseract**: Extrae texto
-5. Resultados se guardan en MongoDB
-6. Servidor retorna análisis completo al cliente
-7. Frontend muestra resultados visualizados
+### Backend
+- **Node.js** - JavaScript runtime environment  
+- **MongoDB Atlas** - Cloud-based NoSQL database for image storage  
+- **TensorFlow.js** - Machine Learning in JavaScript  
+- **COCO-SSD** - Object detection (90 categories)  
+- **MobileNet** - Image classification (1000 categories)  
+- **Tesseract.js** - OCR (Optical Character Recognition)  
+- **Jimp** - Image processing  
+- **Firebase Authentication** - User authentication  
 
-## Contacto
+### Development Tools
+- **dotenv** - Environment variables  
+- **CORS** - Cross-origin resource policies  
+- **Nodemon** - Auto-reload in development  
+
+---
+
+## Features
+
+### Machine Learning Analysis
+- **Object detection** - Identifies up to 90 object types using COCO-SSD  
+- **Image classification** - Classifies images into 1000 categories with MobileNet  
+- **OCR (Text Recognition)** - Extracts visible Spanish text using Tesseract.js  
+- **Parallel processing** - Runs all 3 models simultaneously for higher speed  
+
+### User Interface
+- **Drag & Drop** - Drag images directly  
+- **Real-time preview** - View the image before analyzing  
+- **Detailed results** - Description, objects, labels, and detected text  
+- **Responsive design** - Works on desktop, tablet, and mobile  
+- **Smooth animations** - Elegant transitions and loading states  
+
+### Security & Authentication
+- **Firebase Authentication** - Secure login with Google and email  
+- **JWT Tokens** - Token-based authentication  
+- **Persistent sessions** - Maintains user sessions  
+- **Route protection** - Only authenticated users can analyze  
+
+---
+
+## Data Flow
+1. User uploads image → Frontend converts it to Base64  
+2. Frontend sends request with JWT token → Server validates authentication  
+3. Server stores image in MongoDB → Returns image ID  
+4. Server processes with ML Service:
+   - **COCO-SSD**: Detects objects  
+   - **MobileNet**: Classifies image  
+   - **Tesseract**: Extracts text  
+5. Results are stored in MongoDB  
+6. Server returns full analysis to the client  
+7. Frontend displays visualized results  
+
+---
+
+## Contact
 
 **Yessetk Rodriguez**
 
-- GitHub: [@yessetkr21](https://github.com/yessetkr21)
+- GitHub: https://github.com/yessetkr21  
 - Email: yessetkr2190@gmail.com
