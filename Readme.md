@@ -3,7 +3,6 @@
 **Intelligent image analysis platform using Machine Learning and neural networks**
 
 ### Project Link  
-👉 https://proyecto-analisis-ia.onrender.com
 
 ---
 
